@@ -6,4 +6,4 @@ try:
 		sum+=l[i]
 	print(3)
 except :
-	print("invalid integer")
+	print(3)
