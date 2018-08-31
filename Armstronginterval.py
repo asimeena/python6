@@ -1,6 +1,6 @@
 try:
-	s=int(input())
-	e=int(input())
+	s=int(raw_input())
+	e=int(raw_input())
 	for n in range(s,e):
 		temp=n
 		ams=0
