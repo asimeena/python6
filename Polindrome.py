@@ -1,10 +1,14 @@
-a=int(raw_input())
-temp=a
-x=0
-while(temp!=0):
-	x=x*10+int(temp%10)
-	temp=int(temp/10)
-if(x==a):
-	print("yes")
-else:
-	print("no")
+def main():
+	n=int(input(""))
+	temp=n
+	rev=0
+	while(n>0):
+		dig=n%10
+		rev=rev*10+dig
+		n=n//10
+	if(temp==rev):
+		print("yes")
+	else:
+		print("no")
+if __name__=='__main__':
+                main()
