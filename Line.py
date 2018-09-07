@@ -1,2 +1,2 @@
-name=str(raw_input())
-print(name.count('.')+int(1))
+a=str(raw_input())
+print(a.count('.')+int(1))
