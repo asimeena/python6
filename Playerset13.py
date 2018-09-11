@@ -1,2 +1,2 @@
-a=int(raw_input())
-print " ",''.join(list(reversed(str(a))))
+c=raw_input()
+print c[::-1]
