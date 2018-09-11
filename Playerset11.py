@@ -1,2 +1,2 @@
-a=raw_input()
-print a[::-1]
+m=raw_input()
+print m[::-1]
