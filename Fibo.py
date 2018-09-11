@@ -6,4 +6,4 @@ def fibonacci(n):
 n=int(input(''))
 print('')
 for i in range(1,n+1):
-	print fibonacci(i)
+	print fibonacci(i),
