@@ -3,6 +3,6 @@ try:
 	for i in range(s+1,e):
 		if i%2!=0 :
 			continue
-		print(i)
+		print(i),
 except:
 	print('invalid')	
