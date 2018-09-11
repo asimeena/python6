@@ -1,5 +1,5 @@
 a=raw_input()
 if(a=='SUNDAY' or a=='Sunday' or a=='sunday'or a=='SATURDAY' or a=='Saturday' or a=='saturday'):
-	print("Holiday")
+	print("yes")
 else:
-	print("Working day")
+	print("no")
