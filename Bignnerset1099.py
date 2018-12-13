@@ -1,8 +1,8 @@
 import sys
-def st():
+def num():
 	(a,b,c)=map(int,sys.stdin.readline().split())
 	print((a*b)%c)
 try:
-	st()
+	num()
 except:
 	print('invalid')
