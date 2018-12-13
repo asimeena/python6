@@ -1,2 +1,4 @@
 c=raw_input()
-print(c+".")
+dots="."
+output=i+dots
+print output
