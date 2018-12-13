@@ -1,10 +1,10 @@
 def rev():
-	n=int(input())
+	N=int(input())
 	rev=0
-	while(n!=0):
-		r=n%10
+	while(N!=0):
+		r=N%10
 		rev=rev*10+r
-		n//=10
+		N//=10
 	print(rev)
 try:
 	rev()
