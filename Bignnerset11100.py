@@ -1,4 +1,4 @@
-def proddig():
+def num():
 	n=int(input())
 	p=1
 	while(N!=0):
@@ -7,6 +7,6 @@ def proddig():
 		N//=10
 	print(p)
 try:
-	proddig()
+	num()
 except:
 	print('invalid')
