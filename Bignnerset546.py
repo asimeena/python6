@@ -1,9 +1,9 @@
-def countd(a):
-	print(a+1)
+def countd(e):
+	print(e+1)
 def main():
 	try:
-		a=int(input())
-		countd(a)
+		e=int(input())
+		countd(e)
 	except:
 		print('invalid')
 main()
