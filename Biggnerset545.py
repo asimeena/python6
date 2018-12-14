@@ -1,9 +1,9 @@
 def countd(n):
-	c=0
+	a=0
 	while(n!=0):
 		n//=10
-		c+=1
-	print(c)
+		a+=1
+	print(a)
 def main():
 	try:
 		n=int(input())
