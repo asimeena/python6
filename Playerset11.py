@@ -1,3 +1,3 @@
-s=raw_input()
-k=s[::-1]
+d=raw_input()
+k=d[::-1]
 print k
