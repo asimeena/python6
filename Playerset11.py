@@ -1,2 +1,3 @@
-m=raw_input()
-print m[::-1]
+s=raw_input()
+k=s[::-1]
+print k
